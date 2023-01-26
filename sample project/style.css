@@ -1,0 +1,323 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.wrapper {
+    background: url(./img/aesthe.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+.navbar {
+    height: 70px;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.4);
+}
+
+.navbar ul {
+    float: left;
+    margin-right: 15px;
+}
+
+.navbar ul li {
+    list-style: none;
+    margin: 5px;
+    display: inline-block;
+    line-height: 80px;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 17px;
+    padding: 6px 13px;
+    font-family: Candara;
+    transition: .4s;
+}
+
+.navbar ul li a:hover {
+    border-radius: 2px;
+    background-color: white;
+    color: black;
+}
+
+.active {
+    background-color: black;
+}
+
+.wrapper .center {
+    position: absolute;
+    top: 50%;
+    left: 55%;
+    transform: translate(-50%, -50%);
+    user-select: none;
+}
+
+.center h1 {
+    font-family: Viner Hand ITC;
+    color: white;
+    font-size: 55px;
+    font-weight: bold;
+    width: 900px;
+    text-align: center;
+    margin-right: 100px;
+    margin-top: -50px;
+}
+
+.center h2 {
+    font-family: chiller;
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+    width: 885px;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.button {
+    position: absolute;
+    top: 140%;
+    left: 45%;
+    font-size: 20px;
+    transform: translate(-50%, -50%);
+}
+
+.btn {
+    height: 60px;
+    width: 150px;
+    padding: 8px;
+    margin-right: 6px;
+    font-family: Viner Hand ITC font-size: 40px;
+    font-weight: bold;
+    color: black;
+    background: lightblue;
+    border: 3px solid white;
+    outline: none;
+    cursor: pointer;
+    border-radius: 20px;
+}
+
+.btn:hover {
+    background-color: white;
+    color: black;
+}
+
+.footer .box-container {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: (minmax(25rem, 1fr))[auto-fit];
+    grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+    gap: 1.5rem;
+}
+
+.footer .box-container .box {
+    padding: 1rem 0;
+}
+
+.footer .box-container .box .logo {
+    padding-bottom: 1rem;
+}
+
+.footer .box-container .box h3 {
+    font-size: 2.2rem;
+    color: #fff;
+    padding: 1rem 0;
+}
+
+.footer .box-container .box p {
+    font-size: 1.4rem;
+    color: #aaa;
+    padding: 1rem 0;
+    line-height: 2;
+}
+
+.footer .box-container .box p i {
+    padding-right: .5rem;
+    color: #29d9d5;
+}
+
+.footer .box-container .box .share {
+    padding-top: 1rem;
+}
+
+.footer .box-container .box .share a {
+    height: 4.5rem;
+    width: 4.5rem;
+    line-height: 4rem;
+    font-size: 2rem;
+    border-radius: 50%;
+    font-size: 1.7rem;
+    border: 0.2rem solid #29d9d5;
+    color: #29d9d5;
+    margin-right: .5rem;
+    text-align: center;
+}
+
+.footer .box-container .box .share a:hover {
+    background: #29d9d5;
+    color: #111;
+}
+
+.footer .box-container .box .links {
+    font-size: 1.4rem;
+    color: #aaa;
+    padding: 1rem 0;
+    display: block;
+}
+
+.footer .box-container .box .links:hover {
+    color: #29d9d5;
+}
+
+.footer .box-container .box .links:hover i {
+    padding-right: 2rem;
+}
+
+.footer .box-container .box .links i {
+    padding-right: .5rem;
+    color: #29d9d5;
+}
+
+.footer .box-container .box form .email {
+    width: 100%;
+    border-radius: 5rem;
+    border: 0.2rem solid #29d9d5;
+    background: none;
+    font-size: 1.5rem;
+    text-transform: none;
+    color: #aaa;
+    margin-bottom: 1rem;
+    padding: 1.2rem 1.4rem;
+}
+
+.destination .box-container {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: (minmax(27rem, 1fr))[auto-fit];
+    grid-template-columns: repeat(auto-fit, minmax(27rem, 1fr));
+    gap: 1.5rem;
+}
+
+.destination .box-container .box {
+    border-radius: 1rem;
+    overflow: hidden;
+    background: #222;
+}
+
+.destination .box-container .box:hover img {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+.destination .box-container .box .image {
+    height: 20rem;
+    overflow: hidden;
+    width: 100%;
+}
+
+.destination .box-container .box .image img {
+    height: 100%;
+    width: 100%;
+    -o-object-fit: cover;
+    object-fit: cover;
+}
+
+.destination .box-container .box .content {
+    padding: 2rem;
+    text-align: center;
+}
+
+.destination .box-container .box .content h3 {
+    font-size: 2rem;
+    color: #fff;
+}
+
+.destination .box-container .box .content p {
+    padding: 1rem 0;
+    font-size: 1.4rem;
+    color: #aaa;
+    line-height: 2;
+}
+
+.destination .box-container .box .content a {
+    font-size: 1.7rem;
+    color: #29d9d5;
+}
+
+.destination .box-container .box .content a:hover i {
+    padding-left: 1rem;
+}
+
+.destination .box-container .box .content a i {
+    padding-right: .5rem;
+}
+
+.services .box-container {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: (minmax(32rem, 1fr))[auto-fit];
+    grid-template-columns: repeat(auto-fit, minmax(32rem, 1fr));
+    gap: 1.5rem;
+}
+
+.services .box-container .box {
+    background: #222;
+    border-radius: 1rem;
+    padding: 3rem;
+    text-align: center;
+    border: 0.2rem solid #111;
+}
+
+.services .box-container .box:hover {
+    border: 0.2rem solid #29d9d5;
+}
+
+.services .box-container .box i {
+    font-size: 4rem;
+    color: #29d9d5;
+    margin-bottom: 2rem;
+}
+
+.services .box-container .box h3 {
+    font-size: 2rem;
+    color: #fff;
+}
+
+.services .box-container .box p {
+    padding: 1rem 0;
+    font-size: 1.4rem;
+    color: #aaa;
+    line-height: 2;
+}
+
+.gallery .box-container {
+    -webkit-columns: 3 25rem;
+    columns: 3 25rem;
+    -webkit-column-gap: 1.5rem;
+    column-gap: 1.5rem;
+}
+
+.gallery .box-container .box {
+    margin-bottom: 1rem;
+    -webkit-column-break-inside: avoid;
+    break-inside: avoid;
+}
+
+.gallery .box-container .box img {
+    width: 100%;
+    border-radius: 1rem;
+    margin-bottom: 1rem;
+}
+
+.gallery .box-container .box span {
+    font-size: 1.4rem;
+    color: #aaa;
+}
+
+.gallery .box-container .box h3 {
+    margin-top: .5rem;
+    font-size: 2rem;
+    color: #fff;
+}
